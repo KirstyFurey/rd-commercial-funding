@@ -118,11 +118,11 @@ button {
 
 /* The Close Button */
 #close{
-  color: #aaa;
+  color: #070269;
   float: left;
-  font-size: 28px;
+  font-size: 18px;
   font-weight: bold;
-  margin: 0px 10px;
+  margin: 10px 10px;
 }
 
 #close:hover,
