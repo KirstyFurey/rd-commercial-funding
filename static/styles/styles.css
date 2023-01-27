@@ -80,6 +80,20 @@ button {
 }
 
 /* MOBILE NAV */
+.m-logo {
+	width: 50px;
+	padding: 5px;
+}
+
+.mobile-nav {
+	display: none;
+	width: 100%;
+}
+
+.mobile-nav-container {
+	width: 100%;
+}
+
 #mobile-menu, #m-nav {
   display: none;
 }
@@ -93,15 +107,12 @@ button {
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
 }
 
 /* Modal Content/Box */
 #mobile-nav {
   background-color: #fff;
-  padding: 20px;
-  width: 60%;
+  width: 100%;
   height: 100%;
 }
 
@@ -180,58 +191,76 @@ footer {
 }
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
 
-  /* NAV */
-  nav {
-    border-bottom: none;
-    height: 50px;
-  }
+/* NAV */
+    nav {
+        border-bottom: none;
+        height: 50px;
+    }
 
-  #mobile-menu {
-    display: block;
-    padding: 0px 10px;
-  }
+    .mobile-nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        /*justify-content: space-between;*/
+    }
 
-  #mobile-menu:hover {
-    cursor: pointer;
-    transition: all 0.2s ease;
-  }
+    .mobile-nav-container {
+        width: 55vw;
+		display: flex;
+		justify-content: space-between;
+    }
 
-  .nav-container {
-    display: none;
-  }
+    .m-logo {
+        display: block;
+    }
 
-  #m-nav-ul {
-    flex-direction: column;
-  }
+    #mobile-menu {
+        display: block;
+        padding: 0px 10px;
+    }
 
-  li {
-    color: black;
-    padding: 0px 10px;
-    font-weight: 700;
-    padding-bottom: 15px;
-    height: 35px;
-	list-style-type: none;
-  }
+    #mobile-menu:hover {
+        cursor: pointer;
+        transition: all 0.2s ease;
+    }
 
-  li:hover {
-    color: hsl(220, 13%, 13%);
-    cursor: pointer;
-    box-shadow: none;
-    border: none;
-    transition: all 0.2s ease;
-  }
-	
-  
-  /* MAIN */
-	main {
-		margin-top: 50px;
-	}
+    .nav-container {
+        display: none;
+    }
+
+    #m-nav-ul {
+        flex-direction: column;
+    }
+
+    li {
+        color: black;
+        padding: 0px 10px;
+        font-weight: 700;
+        padding-bottom: 15px;
+        height: 35px;
+        list-style-type: none;
+    }
+
+    li:hover {
+        color: hsl(220, 13%, 13%);
+        cursor: pointer;
+        box-shadow: none;
+        border: none;
+        transition: all 0.2s ease;
+    }
+
+
+    /* MAIN */
+      main {
+          margin-top: 50px;
+      }
 	
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
 	footer p, .footer-links a {
 		font-size: 0.6em;
 	}

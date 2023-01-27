@@ -3,7 +3,7 @@
 .head-quote {
 	background-color: #171a8f;
 	width: 100vw;
-	height: 300px;
+	height: 260px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -30,6 +30,10 @@ h3 {
 @media only screen and (max-width: 500px) {
 	h3, .quotation {
 		font-size: 0.7em;
+	}
+	
+	.head-quote {
+		height: 240px;
 	}
 	
 }
