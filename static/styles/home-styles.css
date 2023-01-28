@@ -37,10 +37,13 @@ h3 {
 
 .option {
 	width: 25%;
+	box-shadow: 0px 5px 10px 1px #a9a9a9;
+	margin: 10px;
 }
 
 .option-img {
 	width: 100%;
+	display: block;
 }
 
 @media only screen and (max-width: 800px) {
