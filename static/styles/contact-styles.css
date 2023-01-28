@@ -1,3 +1,98 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.section-head {
+	background-color: #171a8f;
+	width: 100vw;
+	height: 220px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	flex-direction: column;
+	text-align: center;
+}
+
+
+h3 {
+    color: #fff;
+    text-transform: uppercase; 
+	letter-spacing: 0.03em;
+	margin: 30px 0px;
+	padding: 0px 30px;
+}
+
+.section-head-p {
+	padding: 10px 30px;
+	margin: 0px;
+	line-height: 1.5em;
+}
+
+
+.contact-contain {
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 20px 0px;
+	box-shadow: 0px 5px 10px 1px #a9a9a9;
+}
+
+.image-container {
+	width: 100vw;
+}
+
+.email-image {
+	width: 100%;
+	display: block;
+	height: 250px;
+	object-fit: cover;
+}
+
+
+.contact {
+	width: 30%;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.icon {
+	width: 10%;
+}
+
+.icon-img {
+	width: 100%;
+	display: block;
+}
+
+.contact-desc, .contact-method {
+	margin: 5px 0px;
+}
+
+@media only screen and (max-width: 800px) {
+	body {
+		font-size: 0.7em;
+	}
+	
+    .contact {
+        width: 60%;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	body {
+		font-size: 0.6em;
+	}
+	
+	.section-head {
+		height: 160px;
+	}
+	
+	.contact {
+		width: 80%;
+	}
+}
