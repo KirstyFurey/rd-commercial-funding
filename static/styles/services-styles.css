@@ -45,8 +45,8 @@
 
 .desc-container {
 	width: 100%;
-	height: 40px;
-	padding: 20px 0px 50px;
+	height: 60px;
+	padding: 20px 0px 40px 0px;
 	background-color: #070269;
 }
 
@@ -80,7 +80,7 @@
 	}
 	
 	.desc-container {
-		height: 30px;
+		height: 50px;
 	}
 	
 	.service-desc {
@@ -91,6 +91,10 @@
 @media only screen and (max-width: 500px) {
 	.service {
 		width: 35%;
+	}
+	
+	.desc-container {
+		height: 60px;
 	}
 	
 	.service-desc {
