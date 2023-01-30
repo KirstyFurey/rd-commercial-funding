@@ -74,10 +74,6 @@ h3 {
 }
 
 @media only screen and (max-width: 800px) {
-	body {
-		font-size: 0.7em;
-	}
-	
     .contact {
         width: 60%;
 	}
@@ -88,10 +84,6 @@ h3 {
 }
 
 @media only screen and (max-width: 500px) {
-	body {
-		font-size: 0.6em;
-	}
-	
 	.section-head {
 		height: 160px;
 	}

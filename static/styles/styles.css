@@ -193,6 +193,9 @@ footer {
 
 
 @media only screen and (max-width: 800px) {
+	body {
+		font-size: 0.7em;
+	}
 
 /* NAV */
     nav {
@@ -266,3 +269,10 @@ footer {
 		font-size: 0.6em;
 	}
 }
+
+@media only screen and (max-width: 400px) {
+	body {
+		font-size: 0.8em;
+	}
+}
+
