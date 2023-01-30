@@ -92,14 +92,14 @@
 	.service {
 		width: 35%;
 	}
+	
+	.service-desc {
+		font-size: 1em;
+	}
 }
 
 @media only screen and (max-width: 350px) {
 	.service {
 		width: 80%;
-	}
-	
-	.service-desc {
-		font-size: 1em;
 	}
 }
