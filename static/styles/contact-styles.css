@@ -61,7 +61,7 @@ h3 {
 }
 
 .icon {
-	width: 10%;
+	width: 8%;
 }
 
 .icon-img {
@@ -80,6 +80,10 @@ h3 {
 	
     .contact {
         width: 60%;
+	}
+	
+	.icon {
+		width: 5%;
 	}
 }
 
