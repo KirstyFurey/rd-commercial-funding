@@ -139,6 +139,30 @@ main {
 	margin-top: 100px;
 }
 
+.section-head {
+	background-color: #171a8f;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	flex-direction: column;
+	text-align: center;
+	padding: 30px 0px;
+}
+
+
+.section-head h3 {
+    color: #fff;
+    text-transform: uppercase; 
+	letter-spacing: 0.03em;
+	padding: 0px 30px;
+}
+
+.section-head-p, .cta {
+	padding: 0px 30px;
+}
+
 /* FOOTER */
 footer {
     margin-top: auto;

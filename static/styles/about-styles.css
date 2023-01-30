@@ -1,24 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
-.section-head {
-	background-color: #171a8f;
-	width: 100vw;
-	height: 260px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	color: #fff;
-	flex-direction: column;
-	text-align: center;
-}
-
-
-h3 {
-    color: #fff;
-    text-transform: uppercase; 
-	letter-spacing: 0.03em;
-	margin: 30px 0px;
-	padding: 0px 30px;
+.apply {
+	padding: 0px 20px;
 }
 
 .body-link {
@@ -169,11 +152,6 @@ h3 {
 }
 
 @media only screen and (max-width: 500px) {
-	
-	.section-head {
-		height: 240px;
-	}
-	
 	.principles {
 		flex-direction: column;
 	}
