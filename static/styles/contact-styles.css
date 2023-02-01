@@ -11,6 +11,13 @@
 	box-shadow: 0px 5px 10px 1px #a9a9a9;
 }
 
+.contact-method-contain {
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+	
 .image-container {
 	width: 100vw;
 }
@@ -45,6 +52,10 @@
 	margin: 5px 0px;
 }
 
+.contact-method a {
+	color: #171a8f;
+}
+
 @media only screen and (max-width: 800px) {
     .contact {
         width: 60%;
@@ -58,5 +69,9 @@
 @media only screen and (max-width: 500px) {
 	.contact {
 		width: 80%;
+	}
+	
+	.contact-method-contain {
+		flex-direction: column;
 	}
 }
